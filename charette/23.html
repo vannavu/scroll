@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<head>
+  <title>#23</title>
+  <link rel="stylesheet" type="text/css" href="../css/charette.css">
+</head>
+
+<body>
+  <div class="skrollr_container" style="background-color: rgb(0,0,0)">
+
+    <div id="quarter_ellipse"
+      data-start="top: 0vh; left: 0%; width: 50%; height: 50vh; transform: rotate(0deg); opacity: 1"
+      data-150p="width: 25%; transform: rotate(180deg); opacity: 0.25"
+      data-end="width: 50%; transform: rotate(360deg); opacity: 0;"></div>
+    <div id="quarter_ellipse" style="background-color: yellow"
+      data-start="top: 25vh; left: 10%; width: 50%; height: 50vh; transform: rotate(0deg); opacity: 0;"
+      data-150p="width: 25%; transform: rotate(180deg); opacity: 1"
+      data-end="width: 50%; transform: rotate(360deg); opacity: 0.5; left: 25%"></div>
+    <div id="quarter_ellipse"
+      data-start="top: 0vh; left: 50%; width: 50%; height: 50vh; transform: rotate(0deg); opacity: 1"
+      data-150p="width: 25%; transform: rotate(-180deg); opacity: 0.25"
+      data-end="width: 50%; transform: rotate(-360deg); opacity: 0;"></div>
+    <div id="quarter_ellipse" style="background-color: lime"
+      data-start="top: 25vh; left: 50%; width: 50%; height: 50vh; transform: rotate(0deg); opacity: 0"
+      data-150p="width: 25%; transform: rotate(-180deg); opacity: 1"
+      data-end="width: 50%; transform: rotate(-360deg); opacity: 0.5; left: 25%;"></div>
+    <div id="quarter_ellipse"
+      data-start="top: 50vh; left: 0%; width: 50%; height: 50vh; transform: rotate(0deg); opacity: 1"
+      data-150p="width: 25%; transform: rotate(-180deg); left: 25%; opacity: 0.25"
+      data-end="width: 50%; transform: rotate(-360deg); left: 0%; opacity: 0;"></div>
+    <div id="quarter_ellipse"
+      data-start="top: 50vh; left: 50%; width: 50%; height: 50vh; transform: rotate(0deg); opacity: 1"
+      data-150p="width: 25%; transform: rotate(180deg); left: 75%; opacity: 0.25"
+      data-end="width: 50%; transform: rotate(360deg); left: 50%; opacity: 0;"></div>
+
+    <div id="helper">
+      <div class="marker" id="one">
+      </div>
+      <div class="marker" id="two">
+      </div>
+      <div class="marker" id="three">
+      </div>
+      <div class="marker" id="four">
+      </div>
+    </div>
+
+  </div>
+
+  <div class="forward"><a href="24.html">→</a></div>
+
+  <script type="text/javascript" src="../js/skrollr.min.js"></script>
+  <script type="text/javascript">
+    var s = skrollr.init({
+    });
+  </script>
+</body>
+
+</html>
