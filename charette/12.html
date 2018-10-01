@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<head>
+  <title>#12</title>
+  <link rel="stylesheet" type="text/css" href="../css/charette.css">
+</head>
+
+<body>
+  <div class="skrollr_container">
+
+    <div id="horizontal_stripe" style="background-color: blue"
+      data-start="position: fixed; top: 0; width: 100%"
+      data-100p="width: 0%"
+      data-300p="width: 100%"></div>
+    <div id="horizontal_stripe" style="background-color: teal"
+      data-start="position: fixed; top: 25vh; width: 0%"
+      data-100p="width: 100%"
+      data-200p="width: 0%"
+      data-300p="width: 100%;"></div>
+    <div id="horizontal_stripe" style="background-color: green"
+      data-start="position: fixed; top: 50vh; width: 25%"
+      data-200p="width: 100%"></div>
+    <div id="horizontal_stripe" style="background-color: gray"
+      data-start="position: fixed; top: 75vh; width: 75%"
+      data-250p="width: 0%"
+      data-300p="width: 100%"></div>
+
+
+    <div id="helper">
+      <div class="marker" id="one">
+      </div>
+      <div class="marker" id="two">
+      </div>
+      <div class="marker" id="three">
+      </div>
+      <div class="marker" id="four">
+      </div>
+    </div>
+
+  </div>
+
+  <div class="forward"><a href="13.html">→</a></div>
+
+  <script type="text/javascript" src="../js/skrollr.min.js"></script>
+  <script type="text/javascript">
+    var s = skrollr.init({
+    });
+  </script>
+</body>
+
+</html>
