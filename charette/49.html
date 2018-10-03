@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<head>
+  <title>#49</title>
+  <link rel="stylesheet" type="text/css" href="../css/charette.css">
+</head>
+
+<body style="background: black">
+  <div class="skrollr_container" style="background: black">
+
+    <div style="position: fixed; height: 50vh; width: 50vh"
+      data-start="transform: scale3d(20, 20, 20) rotate3d(1, 1, 1, 0deg); right: 50%; top: 25vh"
+      data-end="transform: scale3d(6, 6, 6) rotate3d(1, 1, 1, 75deg);">
+    <img src="images/star.svg"></div>
+    <div style="position: fixed; height: 50vh; width: 50vh"
+      data-start="transform: scale3d(6, 6, 6) rotate3d(1, 1, 1, 0deg); right: 50%; top: 25vh"
+      data-end="transform: scale3d(20, 20, 20) rotate3d(1, 1, 1, 75deg);">
+    <img src="images/star.svg"></div>
+
+    <div id="helper">
+      <div class="marker" id="one">
+      </div>
+      <div class="marker" id="two">
+      </div>
+      <div class="marker" id="three">
+      </div>
+      <div class="marker" id="four">
+      </div>
+    </div>
+
+  </div>
+
+  <div class="forward"><a href="50.html">→</a></div>
+
+  <script type="text/javascript" src="../js/skrollr.min.js"></script>
+  <script type="text/javascript">
+    var s = skrollr.init({
+    });
+  </script>
+</body>
+
+</html>
