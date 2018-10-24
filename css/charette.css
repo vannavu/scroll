@@ -25,7 +25,7 @@ html, body {
 
 #helper_01 {
   position: absolute;
-  height: 10000%;
+  height: 20000%;
   left: 0;
   top: 0;
   width: 1%;
@@ -148,7 +148,7 @@ html, body {
   height: 600px;
   background-image: url("../trial/images/diamond_white.svg");
   background-repeat: no-repeat;
-  position: fixed;
+  position: absolute;
   padding: 0;
   margin: 0;
 }
