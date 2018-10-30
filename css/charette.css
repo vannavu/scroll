@@ -27,7 +27,7 @@ html, body {
 
 #helper_01 {
   position: absolute;
-  height: 27000%;
+  height: 25000%;
   left: 0;
   top: 0;
   width: 1%;
@@ -132,16 +132,27 @@ html, body {
 .rectangle {
   position: relative;
   display: inline-block;
-  height: 50vh;
-  width: 50vh;
+  height: 60vh;
+  width: 60vh;
 }
 
 .container {
   position: fixed;
   display: block;
-  width: 50vh;
-  height: 50vh;
-  margin: 25vh calc((100% - 50vh)/2);
+  width: 60vh;
+  height: 60vh;
+  margin: 20vh calc((100% - 60vh)/2);
+}
+
+.title_container {
+  position: fixed;
+  display: block;
+  background-image: url('../title.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 70%;
+  height: 20vh;
+  margin: 30vh 15%;
 }
 
 #quarter_rectangle {
